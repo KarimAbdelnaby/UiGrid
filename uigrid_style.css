@@ -1,0 +1,166 @@
+.navbar{
+    height: 70px
+}
+.navbar img{
+    width: 25%
+}
+.nav-link:hover,.navbar-brand:hover {
+    color: #ec3237 !important;
+}
+.home{
+    height: 700px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+}
+.btn{
+    padding: 10px 25px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.overlay{
+    background-color: rgba(236, 51, 55, 0.7);
+    width: 100%;
+    height: 100%;
+}
+.scroll{
+    color: #fff;
+}
+.section_scroll i{
+    position: relative;
+    left: 50%;
+    top: 250px;
+}
+
+.about h2{
+    font-size: 30px;
+    font-weight: 700px;
+}
+.about p{
+    font-size: 16px;
+    color: #777777;
+}
+.about h4{
+    font-size: 18px;
+}
+
+
+.social{
+    padding-top: 25px;
+    border-top: 1px solid #fafafa;
+}
+.social .social_ico li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #999999;
+    color: #777777;
+    position: relative;
+}
+.social .fab{
+    position: absolute;
+    left: 10px;
+    top: 10;
+}
+.social li:hover i{
+    color: #ffffff;
+}
+.social li:hover a{
+    background-color: #ec3237;
+}
+
+.about .btn{
+    background-color: #ec3237;
+    color: #ffffff;
+}
+
+.service_icon i{
+    font-size: 18;
+    background-color: #eeeeee;
+    color: #777777;
+    width: 40px;
+    height: 40px;
+    text-align:center;
+}
+
+.work .btn_cta {
+    background-color: #ec3237;
+    color: #ffffff;
+}
+
+.counter{
+    background-image: url(../images/project-counter.jpg);
+    height: 300px;
+    background-size: cover
+}
+.coun_item{
+    border: solid 1px
+}
+.counter_icon i{
+    color: #ec3237;
+    padding: 10px 10px;
+    font-size: 30;
+}
+.counter_wrap h4{
+    color: #ec3237;
+    font-size: 18px;
+}
+.counter_wrap span{
+    color: #fff;
+    font-size: 40px;
+}
+
+.protfolio{
+    background-color: #f9f9f9;
+     font-family: 'Montserrat', sans-serif;
+  
+}
+.project .project-caption{
+    background-color: #fff
+}
+.project .project-caption i{
+    border-radius: 50%;
+    position:relative;
+    bottom: 25px;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+}
+.project .project-caption:hover i{
+    background-color: #ec3237;
+    color: #ffffff;
+}
+.project-img{
+    position: relative
+}
+.project-img .project-overlay{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom: 0;
+    left:0;
+    opacity:0;
+    transition:all 1s
+}
+
+
+.contact_details a{
+    color: #BF360C;
+}
+.field .btn{
+    background-color: #ec3237;
+    color: #ffffff;
+}
+.form-control{
+    border: 2px solid #cccccc;
+}
+
+footer .link{
+    color: #BF360C;
+}
+
